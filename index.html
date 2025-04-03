@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>λ Hackathon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="lambda-icon">λ</div>
+
+    <nav class="nav-container">
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>λ Hackathon Portfolio</h1>
+        <p>Showcasing innovative solutions and creative coding for the hackathon</p>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="profile.jpg" alt="Profile" class="profile-img">
+            <p>Hi, I'm [Your Name]! I'm a coder competing in this hackathon to build innovative solutions. Skilled in
+                HTML
+                and CSS, I love turning ideas into reality.</p>
+        </div>
+    </section>
+
+    <section class="hackathon-details">
+        <h2>Hackathon Info</h2>
+        <div class="details-card">
+            <h3>[PLP Hackathon Porfolio Website]</h3>
+            <p>Date: April 2025</p>
+            <p>Team: 386</p>
+            <p>Goal: Showcase My Web Development Skills</p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Description of your hackathon project goes here.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of your hackathon project goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievements">
+        <h2>Achievements</h2>
+        <div class="achievement-grid">
+            <div class="achievement-card">
+                <p>"Won 2nd Place in 2024 CodeJam"</p>
+            </div>
+            <div class="achievement-card">
+                <p>"Best UI Design - Team Project"</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills"></section>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-item">Web Design</div>
+        <div class="skill-item">Problem Solving</div>
+        <div class="skill-item">Teamwork</div>
+        <div class="skill-item">Creativity</div>
+    </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-links">
+            <a href="mailto:edwingichira801@gmail.com" class="contact-btn">Email</a>
+            <a href="https://github.com/EdiGich" class="contact-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/edwin-gichira-9147a8213/" class="contact-btn">LinkedIn</a>
+        </div>
+    </section>
+
+    <button class="back-to-top">↑</button>
+
+    <footer>
+        <p>&copy; 2025 [Edwin Gichira] | λ</p>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
