@@ -1,9 +1,9 @@
 # Edwin Gichira - PLP Hackathon Portfolio
 
-Welcome to my portfolio website for the **PLP Academy Feb 2025 Cohort Hackathon 1: Portfolio Challenge**! This project showcases my skills, background, and interests as a web developer, built using HTML and CSS with inline JavaScript.
+Welcome to my portfolio website. This project showcases my skills, background, and interests as a web developer, built using HTML and CSS with inline JavaScript.
 ## Project Overview
 
-This portfolio is designed to highlight my capabilities as part of the PLP Academy Hackathon. It includes:
+This portfolio is designed to highlight my capabilities as part of the PLP Academy Hackathon. It includes;
 
 - **Programming Languages**: HTML, CSS, and JavaScript.
 - **About Section**: A brief introduction to who I am and what drives me.
