@@ -25,13 +25,3 @@ Check out the deployed version: [Edwin Gichira's Portfolio](https://gichedwinspo
   - A downloadable CV link.
   - A contact form with a submission alert.
 
-### The File Structure
-
-plp-hackathon-portfolio/
-├── index.html          # Main portfolio page
-├── styles.css          # All styling
-├── images/             # Profile image
-│   └── 114245977.jpg
-├── documents/          # CV file
-│   └── Edwin Gichira M CV.pdf
-└── README.md           # This file
