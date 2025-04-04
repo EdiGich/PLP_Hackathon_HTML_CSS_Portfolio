@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>λ Hackathon Portfolio</title>
+    <title>λ Edwin Gichira - PLP Hackathon Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -12,82 +12,103 @@
     <div class="lambda-icon">λ</div>
 
     <nav class="nav-container">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
         <ul class="nav-menu">
             <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#interests" class="nav-link">Interests</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-        <div class="hamburger">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
     </nav>
 
     <section class="hero" id="home">
-        <h1>λ Hackathon Portfolio</h1>
-        <p>Showcasing innovative solutions and creative coding for the hackathon</p>
+        <h1>λ Edwin Gichira</h1>
+        <p>PLP Academy Feb 2025 Cohort Hackathon 1: Portfolio Challenge</p>
     </section>
 
     <section class="about" id="about">
         <h2>About Me</h2>
         <div class="about-content">
-            <img src="profile.jpg" alt="Profile" class="profile-img">
-            <p>Hi, I'm [Your Name]! I'm a coder competing in this hackathon to build innovative solutions. Skilled in
-                HTML
-                and CSS, I love turning ideas into reality.</p>
+            <img src="images/114245977.jpg" alt="Profile" class="profile-img">
+            <p>Hi! I’m Edwin Gichira, a passionate web developer with a love for creating functional and beautiful web
+                experiences. I’m driven by curiosity and a desire to solve real-world problems through code.</p>
+            </div>
+            </section>
+            
+            <section class="education" id="education">
+                <h2>Educational Background</h2>
+                <div class="education-content">
+                    <p>I’m currently pursuing web development skills through the PLP Academy Feb 2025 Cohort.</p>
+                    <a href="documents/Edwin Gichira M CV.pdf" download="Edwin_Gichira_CV.pdf" class="cv-btn">Download My CV</a>
         </div>
     </section>
-
-    <section class="hackathon-details">
-        <h2>Hackathon Info</h2>
-        <div class="details-card">
-            <h3>[PLP Hackathon Porfolio Website]</h3>
-            <p>Date: April 2025</p>
-            <p>Team: 386</p>
-            <p>Goal: Showcase My Web Development Skills</p>
+    
+    <section class="interests" id="interests">
+        <h2>Interests</h2>
+        <div class="interests-grid">
+            <div class="interest-item">Next.js</div>
+            <div class="interest-item">Django</div>
+            <div class="interest-item">Flutter</div>
+            <div class="interest-item">MySQL</div>
+            <div class="interest-item">SQLite</div>
+            <div class="interest-item">PostgreSQL</div>
         </div>
     </section>
 
     <section class="projects" id="projects">
         <h2>Projects</h2>
         <div class="project-grid">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of your hackathon project goes here.</p>
+            <div class="project-card" onmouseover="this.style.background='#ff6200'"
+                onmouseout="this.style.background='transparent'">
+                <h3>DTC Catering Website</h3>
+                <p>A Django-based catering website that provides an online platform for a catering company to showcase
+                    services, manage a gallery, and receive customer inquiries. The site supports dynamic content
+                    management through an admin Flutter app.</p>
+                <a href="https://github.com/EdiGich/Catering" target="_blank" class="project-link">View on GitHub</a>
             </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of your hackathon project goes here.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="achievements">
-        <h2>Achievements</h2>
-        <div class="achievement-grid">
-            <div class="achievement-card">
-                <p>"Won 2nd Place in 2024 CodeJam"</p>
-            </div>
-            <div class="achievement-card">
-                <p>"Best UI Design - Team Project"</p>
+            <div class="project-card" onmouseover="this.style.background='#ff6200'"
+                onmouseout="this.style.background='transparent'">
+                <h3>DTC Content Manager</h3>
+                <p>DTC Content Manager is a Flutter app designed to manage dynamic content for the Delicious Tumaini
+                    Caterers website. It allows the admin users to upload photos, update menu items, receive contact
+                    form notifications, and manage website content seamlessly via an intuitive mobile interface. Built
+                    with GetX for state management.</p>
+                <a href="https://github.com/EdiGich/dtc_content_manager" target="_blank" class="project-link">View on
+                    GitHub</a>
             </div>
         </div>
     </section>
 
-    <section class="skills" id="skills"></section>
-    <h2>Skills</h2>
-    <div class="skills-grid">
-        <div class="skill-item">Web Design</div>
-        <div class="skill-item">Problem Solving</div>
-        <div class="skill-item">Teamwork</div>
-        <div class="skill-item">Creativity</div>
-    </div>
+    <section class="skills">
+        <h2>Programming Languages</h2>
+        <div class="skills-grid">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript (intermediate)</div>
+            <div class="skill-item">Dart with Flutter (intermediate)</div>
+            <div class="skill-item">Python - Django</div>
+            
+            
+            </div>
     </section>
 
     <section class="contact" id="contact">
         <h2>Contact Me</h2>
+        <form class="contact-form"
+            onsubmit="event.preventDefault(); alert('Thank you for your message! I’ll get back to you soon.'); this.reset();">
+            <!-- The message is not actually sent. -->
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="contact-btn">Send Message</button>
+        </form>
         <div class="contact-links">
             <a href="mailto:edwingichira801@gmail.com" class="contact-btn">Email</a>
             <a href="https://github.com/EdiGich" class="contact-btn">GitHub</a>
@@ -95,21 +116,11 @@
         </div>
     </section>
 
-    <button class="back-to-top">↑</button>
+    <a href="#home" class="back-to-top">↑</a>
 
     <footer>
-        <p>&copy; 2025 [Edwin Gichira] | λ</p>
+        <p>© 2025 Edwin Gichira | λ | PLP Academy Hackathon</p>
     </footer>
-
-    <script>
-        const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.nav-menu');
-
-        hamburger.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-        });
-    </script>
-
 </body>
 
 </html>
